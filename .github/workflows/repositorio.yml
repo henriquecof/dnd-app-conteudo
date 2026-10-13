@@ -1,0 +1,27 @@
+# A cada push em pacotes/, valida os pacotes e regenera o repositorio.json.
+name: repositorio
+
+on:
+  push:
+    branches: [main]
+    paths: ['pacotes/**', 'tool/**', 'fontes_aurora.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dart-lang/setup-dart@v1
+      - run: dart pub get
+      - run: dart run tool/gerar_repositorio.dart .
+      - name: Commit do índice
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add repositorio.json
+          git diff --cached --quiet || git commit -m "Atualiza repositorio.json"
+          git push

@@ -1,0 +1,189 @@
+{
+  "formato": 1,
+  "nome": "Conteúdo do app",
+  "atualizado_em": "2026-10-13T14:06:34.118159Z",
+  "pacotes": [
+    {
+      "id": "exemplo-homebrew",
+      "nome": "Exemplo de homebrew",
+      "versao": "1.0.0",
+      "descricao": "Pacote de exemplo mostrando um arquétipo e uma magia criados para o app.",
+      "depende_de": [
+        "srd-5.1"
+      ],
+      "categoria": "classes",
+      "publico": [
+        "jogador",
+        "mestre"
+      ],
+      "idioma": "pt-BR",
+      "contagem": 2,
+      "url": "pacotes/exemplo-homebrew.json",
+      "sha256": "3fc728151c23c71e7360473ccdaa9f9efb512e8dfc8e4221dcc637567fa2bcbb",
+      "tamanho": 1401
+    },
+    {
+      "id": "srd-antecedentes",
+      "nome": "SRD 5.1 — Antecedentes",
+      "versao": "1.0.0",
+      "descricao": "Antecedentes do System Reference Document 5.1 (tradução da comunidade 5e-bits).",
+      "depende_de": [],
+      "categoria": "antecedentes",
+      "publico": [
+        "jogador",
+        "mestre"
+      ],
+      "idioma": "pt-BR",
+      "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+      "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+      "contagem": 1,
+      "url": "pacotes/srd-antecedentes.json",
+      "sha256": "affb26c4f05813e5f4c94182f1e00955290da128af5ba8f1adae3710c52c1ea2",
+      "tamanho": 1858
+    },
+    {
+      "id": "srd-condicoes",
+      "nome": "SRD 5.1 — Condições",
+      "versao": "1.0.0",
+      "descricao": "Condições do System Reference Document 5.1 (tradução da comunidade 5e-bits).",
+      "depende_de": [],
+      "categoria": "condicoes",
+      "publico": [
+        "jogador",
+        "mestre"
+      ],
+      "idioma": "pt-BR",
+      "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+      "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+      "contagem": 15,
+      "url": "pacotes/srd-condicoes.json",
+      "sha256": "777f414a0fa14fd7f6a191efa81f7d4727516ba4942fc19f4f2e1ac1bd18eebe",
+      "tamanho": 7373
+    },
+    {
+      "id": "srd-criaturas",
+      "nome": "SRD 5.1 — Criaturas",
+      "versao": "1.0.0",
+      "descricao": "Todas as criaturas do System Reference Document 5.1 (em inglês).",
+      "depende_de": [],
+      "categoria": "criaturas",
+      "publico": [
+        "mestre"
+      ],
+      "idioma": "en",
+      "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+      "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+      "contagem": 334,
+      "url": "pacotes/srd-criaturas.json",
+      "sha256": "d9c6c1307c488a6f5093488fc8a0f9cd0a2163181a7c365ed323c451132f4ea9",
+      "tamanho": 594433
+    },
+    {
+      "id": "srd-itens-magicos",
+      "nome": "SRD 5.1 — Itens mágicos",
+      "versao": "1.0.0",
+      "descricao": "Todos os itens mágicos do System Reference Document 5.1 (em inglês).",
+      "depende_de": [],
+      "categoria": "itens_magicos",
+      "publico": [
+        "mestre"
+      ],
+      "idioma": "en",
+      "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+      "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+      "contagem": 362,
+      "url": "pacotes/srd-itens-magicos.json",
+      "sha256": "500dfd0e1fbe3fa70da4edcd4233116b3add5a4bf242aa69649006c4f3ee7f65",
+      "tamanho": 307827
+    },
+    {
+      "id": "srd-itens",
+      "nome": "SRD 5.1 — Equipamento",
+      "versao": "1.0.0",
+      "descricao": "Armas, armaduras, equipamento de aventura, ferramentas, montarias e veículos do System Reference Document 5.1 (em inglês).",
+      "depende_de": [],
+      "categoria": "itens",
+      "publico": [
+        "jogador",
+        "mestre"
+      ],
+      "idioma": "en",
+      "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+      "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+      "contagem": 237,
+      "url": "pacotes/srd-itens.json",
+      "sha256": "50ded0b07f8bbf7bdae5987ef5db78246f65f99861e40b761c299cc11b582141",
+      "tamanho": 76865
+    },
+    {
+      "id": "srd-magias",
+      "nome": "SRD 5.1 — Magias",
+      "versao": "1.0.0",
+      "descricao": "Todas as magias do System Reference Document 5.1 (em inglês).",
+      "depende_de": [],
+      "categoria": "magias",
+      "publico": [
+        "jogador",
+        "mestre"
+      ],
+      "idioma": "en",
+      "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+      "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+      "contagem": 319,
+      "url": "pacotes/srd-magias.json",
+      "sha256": "27645f6015095a3e349b14c7f821f6e49f0b914e59388476d7337c60bb3d2929",
+      "tamanho": 399671
+    },
+    {
+      "id": "srd-talentos",
+      "nome": "SRD 5.1 — Talentos",
+      "versao": "1.0.0",
+      "descricao": "Talentos do System Reference Document 5.1 (tradução da comunidade 5e-bits).",
+      "depende_de": [],
+      "categoria": "talentos",
+      "publico": [
+        "jogador",
+        "mestre"
+      ],
+      "idioma": "pt-BR",
+      "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+      "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+      "contagem": 1,
+      "url": "pacotes/srd-talentos.json",
+      "sha256": "25e7bddf8589f4a2d693a8324997bb0e4b301f50ba64771e58f9bd4d06a785ed",
+      "tamanho": 1179
+    }
+  ],
+  "fontes_aurora": [
+    {
+      "nome": "Dark Arts Player's Companion",
+      "url": "https://raw.githubusercontent.com/Saerbhreathach/DAPC-aurora/main/dark-arts-players-companion.index",
+      "descricao": "Subclasses, raças, magias e itens de magia sombria (homebrew, em inglês). Subclasses se ligam às classes do SRD.",
+      "licenca": "CC0 1.0 — https://github.com/Saerbhreathach/DAPC-aurora",
+      "publico": [
+        "jogador",
+        "mestre"
+      ]
+    },
+    {
+      "nome": "Dread Necromancer",
+      "url": "https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer.index",
+      "descricao": "Classe Dread Necromancer completa (homebrew, em inglês).",
+      "licenca": "Apache-2.0 — https://github.com/Saerbhreathach/DADN-aurora",
+      "publico": [
+        "jogador",
+        "mestre"
+      ]
+    },
+    {
+      "nome": "Gus: DnD",
+      "url": "https://raw.githubusercontent.com/GustavoSchip/elements-gus/master/gus.index",
+      "descricao": "Subclasses, talentos, itens mágicos e divindades (homebrew, em inglês).",
+      "licenca": "MIT — https://github.com/GustavoSchip/elements-gus",
+      "publico": [
+        "jogador",
+        "mestre"
+      ]
+    }
+  ]
+}

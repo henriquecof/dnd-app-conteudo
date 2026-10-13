@@ -1,0 +1,27 @@
+{
+ "formato": 1,
+ "id": "srd-talentos",
+ "nome": "SRD 5.1 — Talentos",
+ "versao": "1.0.0",
+ "descricao": "Talentos do System Reference Document 5.1 (tradução da comunidade 5e-bits).",
+ "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+ "idioma": "pt-BR",
+ "categoria": "talentos",
+ "publico": [
+  "jogador",
+  "mestre"
+ ],
+ "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+ "depende_de": [],
+ "complementa": [
+  "srd-5.1"
+ ],
+ "talentos": [
+  {
+   "id": "grappler",
+   "nome": "Imobilizador",
+   "pre_requisito": "FOR 13",
+   "texto": "Você desenvolveu a perícia necessária para se prender a alguém em um combate engajado. Você recebe os seguintes benefícios:\n- Você tem vantagem nas jogadas de ataque contra uma criatura agarrada.\n- Você pode usar sua ação para tentar imobilizar uma criatura agarrada por você. Para tanto, realize outro teste de agarrar. Se você for bem sucedido, você e a criatura estarão ambos impedidos até o agarre terminar."
+  }
+ ]
+}

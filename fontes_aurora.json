@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Dark Arts Player's Companion",
+    "url": "https://raw.githubusercontent.com/Saerbhreathach/DAPC-aurora/main/dark-arts-players-companion.index",
+    "descricao": "Subclasses, raças, magias e itens de magia sombria (homebrew, em inglês). Subclasses se ligam às classes do SRD.",
+    "licenca": "CC0 1.0 — https://github.com/Saerbhreathach/DAPC-aurora",
+    "publico": ["jogador", "mestre"]
+  },
+  {
+    "nome": "Dread Necromancer",
+    "url": "https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer.index",
+    "descricao": "Classe Dread Necromancer completa (homebrew, em inglês).",
+    "licenca": "Apache-2.0 — https://github.com/Saerbhreathach/DADN-aurora",
+    "publico": ["jogador", "mestre"]
+  },
+  {
+    "nome": "Gus: DnD",
+    "url": "https://raw.githubusercontent.com/GustavoSchip/elements-gus/master/gus.index",
+    "descricao": "Subclasses, talentos, itens mágicos e divindades (homebrew, em inglês).",
+    "licenca": "MIT — https://github.com/GustavoSchip/elements-gus",
+    "publico": ["jogador", "mestre"]
+  }
+]

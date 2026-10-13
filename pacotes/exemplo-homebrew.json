@@ -1,0 +1,56 @@
+{
+  "formato": 1,
+  "id": "exemplo-homebrew",
+  "nome": "Exemplo de homebrew",
+  "versao": "1.0.0",
+  "descricao": "Pacote de exemplo mostrando um arquétipo e uma magia criados para o app.",
+  "categoria": "classes",
+  "publico": [
+    "jogador",
+    "mestre"
+  ],
+  "idioma": "pt-BR",
+  "depende_de": [
+    "srd-5.1"
+  ],
+  "arquetipos": [
+    {
+      "id": "guardiao_da_estrada",
+      "classe": "srd-5.1:fighter",
+      "nome": "Guardião da Estrada",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "id": "olhos_na_trilha",
+          "nome": "Olhos na Trilha",
+          "texto": "Você ganha proficiência em Sobrevivência. Enquanto viaja, você e até cinco aliados não podem ser surpreendidos."
+        },
+        {
+          "nivel": 7,
+          "id": "escolta",
+          "nome": "Escolta",
+          "texto": "Como reação, quando um aliado a até 1,5 m é atacado, você impõe desvantagem ao ataque."
+        }
+      ]
+    }
+  ],
+  "magias": [
+    {
+      "id": "lanterna_do_viajante",
+      "nome": "Lanterna do Viajante",
+      "nivel": 0,
+      "escola": "evocacao",
+      "tempo": "1 ação",
+      "alcance": "Toque",
+      "componentes": [
+        "V",
+        "S"
+      ],
+      "duracao": "8 horas",
+      "listas": [
+        "lista:wizard"
+      ],
+      "texto": "Um objeto tocado emite luz plena em 6 m e penumbra por mais 6 m, sem calor."
+    }
+  ]
+}

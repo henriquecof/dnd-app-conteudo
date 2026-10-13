@@ -1,0 +1,9 @@
+name: dnd_app_conteudo
+description: Repositório de pacotes de conteúdo do app de D&D.
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  crypto: ^3.0.5

@@ -1,0 +1,96 @@
+{
+ "formato": 1,
+ "id": "srd-condicoes",
+ "nome": "SRD 5.1 — Condições",
+ "versao": "1.0.0",
+ "descricao": "Condições do System Reference Document 5.1 (tradução da comunidade 5e-bits).",
+ "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+ "idioma": "pt-BR",
+ "categoria": "condicoes",
+ "publico": [
+  "jogador",
+  "mestre"
+ ],
+ "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+ "depende_de": [],
+ "complementa": [
+  "srd-5.1"
+ ],
+ "condicoes": [
+  {
+   "id": "blinded",
+   "nome": "Cego",
+   "texto": "- Uma criatura cega falha automaticamente em qualquer teste de habilidade que requeira o uso da visão.\n- Jogadas de ataque contra a criatura possuem vantagem, e os ataques da criatura sofrem desvantagem."
+  },
+  {
+   "id": "charmed",
+   "nome": "Enfeitiçado",
+   "texto": "- Uma criatura enfeitiçada não pode atacar quem a enfeitiçou ou tê-lo como alvo de habilidades ou efeitos mágicos nocivos.\n- Quem a enfeitiçou possui vantagem em testes de habilidade feitos para interagir socialmente com a criatura."
+  },
+  {
+   "id": "deafened",
+   "nome": "Surdo",
+   "texto": "- Uma criatura surda falha automaticamente em qualquer teste de habilidade que requeira o uso da audição."
+  },
+  {
+   "id": "exhaustion",
+   "nome": "Exaustão",
+   "texto": "Algumas habilidades especiais e perigos ambientais, como fome e exposição prolongada a temperaturas congelantes ou escaldantes, podem impor uma condição especial chamada exaustão. A exaustão é medida em seis níveis. Um efeito pode fazer com que uma criatura sofra um ou mais níveis de exaustão, como especificado na descrição do efeito.\n\n1 - Desvantagem em testes de habilidade\n\n2 - Deslocamento reduzido à metade\n\n3 - Desvantagem nas jogadas de ataque e testes de resistência\n\n4 - Máximo de pontos de vida reduzido à metade\n\n5 - Deslocamento reduzido à 0\n\n6 - Morte\n\nSe uma criatura que já possui um nível de exaustão sofrer outro efeito que também causa exaustão, o nível atual de exaustão da criatura aumenta em uma quantidade especificada pela descrição do efeito que a causou.\n\nConforme o nível de exaustão de uma criatura aumenta, os efeitos pioram. A criatura não sofre apenas o efeito do seu nível atual de exaustão, mas de todos os níveis anteriores, sendo assim uma criatura sofrendo o nível 2 de exaustão tem seu deslocamento reduzido pela metade além de sofrer desvantagem em testes de habilidade.\n\nUm efeito que remova exaustão reduz seu nível, com todos os efeitos de exaustão desaparecendo se esse nível for reduzido abaixo de 1.\n\nTerminar um descanso longo reduz a exaustão de uma criatura em 1 nível, contanto que ela também tenha ingerido um pouco de água e comida."
+  },
+  {
+   "id": "frightened",
+   "nome": "Amedrontado",
+   "texto": "- Uma criatura amedrontada sofre desvantagem em testes de habilidade e jogadas de ataque enquanto a fonte do seu medo estiver em sua linha de visão.\n- A criatura não pode se mover voluntariamente para uma posição que a faça terminar o turno mais próxima da sua fonte de medo do que sua posição inicial."
+  },
+  {
+   "id": "grappled",
+   "nome": "Agarrado",
+   "texto": "- O deslocamento de uma criatura agarrada se torna 0, e ela não pode se beneficiar de qualquer bônus em seu deslocamento.\n- A condição encerra caso a criatura que a agarrou fique incapacitada (veja a condição).\n- A condição se encerra se um efeito, como o causado pela magia onda trovejante, remover a criatura agarrada do alcance da criatura que a agarrou ou do efeito que causa a condição."
+  },
+  {
+   "id": "incapacitated",
+   "nome": "Incapacitado",
+   "texto": "- Uma criatura incapacitada não pode realizar ações ou reações."
+  },
+  {
+   "id": "invisible",
+   "nome": "Invisível",
+   "texto": "- Uma criatura invisível é impossível de ser vista sem a ajuda de magia ou sentidos especiais. Para o propósito de se esconder, a criatura é considerada em área de escuridão densa. A localização da criatura pode ser detectada por qualquer barulho que ela faça ou rastros que ela deixe.\n- Jogadas de ataque contra a criatura sofrem desvantagem, e os ataques da criatura possuem vantagem."
+  },
+  {
+   "id": "paralyzed",
+   "nome": "Paralisado",
+   "texto": "- Uma criatura paralisada está incapacitada (veja a condição). Ela não pode se mover ou falar.\n- A criatura falha automaticamente em teste de resistência de Força e Destreza.\n- Jogadas de ataque contra a criatura possuem vantagem.\n- Qualquer ataque que atinja a criatura é um acerto crítico, se o atacante estiver a 1,5 metro dela."
+  },
+  {
+   "id": "petrified",
+   "nome": "Petrificado",
+   "texto": "- Uma criatura petrificada está transformada, juntamente com todos os objetos não-mágicos que estiver vestindo ou carregando, em uma substância sólida e inanimada (geralmente pedra). Seu peso é multiplicado por dez, e ela para de envelhecer.\n- A criatura está incapacitada (veja a condição), não pode se mover ou falar, e não tem ciência de seus arredores.\n- Jogadas de ataque contra a criatura possuem vantagem.\n- A criatura falha automaticamente em testes de resistência de Força e Destreza.\n- A criatura tem resistência a todos os tipos de dano.\n- A criatura é imune a veneno e doenças, embora um veneno ou doença previamente presente em seu sistema seja apenas suspenso, não neutralizado."
+  },
+  {
+   "id": "poisoned",
+   "nome": "Envenenado",
+   "texto": "- Uma criatura envenenada sofre desvantagem em jogadas de ataque e testes de habilidade."
+  },
+  {
+   "id": "prone",
+   "nome": "Caído",
+   "texto": "- A única opção de movimento que uma criatura caída tem é rastejar, a menos que ela se levante, encerrando assim a condição.\n- A criatura sofre desvantagem nas jogadas de ataque.\n- Uma jogada de ataque contra a criatura possui vantagem se o atacante estiver a 1,5 metro dela. De qualquer outra forma a jogada sofre desvantagem."
+  },
+  {
+   "id": "restrained",
+   "nome": "Impedido",
+   "texto": "- O deslocamento de uma criatura impedida se torna 0, e ela não pode se beneficiar de qualquer bônus em seu deslocamento.\n- Jogadas de ataque contra a criatura possuem vantagem, e os ataques da criatura sofrem desvantagem.\n- A criatura sofre desvantagem em testes de resistência de Destreza."
+  },
+  {
+   "id": "stunned",
+   "nome": "Atordoado",
+   "texto": "- Uma criatura atordoada está incapacitada (veja a  condição). Ela não pode se mover e somente pode falar hesitantemente.\n- A criatura falha automaticamente em testes de resistência de Força ou Destreza.\n- Jogadas de ataque contra a criatura possuem vantagem."
+  },
+  {
+   "id": "unconscious",
+   "nome": "Inconsciente",
+   "texto": "- Uma criatura inconsciente está incapacitada (veja a condição). Ela não pode se mover ou falar e não tem ciência de seus arredores.\n- A criatura larga tudo que estiver segurando e fica caída.\n- A criatura falha automaticamente em testes de resistência de Força ou Destreza.\n- Jogadas de ataque contra a criatura possuem vantagem.\n- Qualquer ataque que atinja a criatura é um acerto crítico, se o atacante estiver a 1,5 metro dela."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "formato": 1,
+ "id": "srd-antecedentes",
+ "nome": "SRD 5.1 — Antecedentes",
+ "versao": "1.0.0",
+ "descricao": "Antecedentes do System Reference Document 5.1 (tradução da comunidade 5e-bits).",
+ "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+ "idioma": "pt-BR",
+ "categoria": "antecedentes",
+ "publico": [
+  "jogador",
+  "mestre"
+ ],
+ "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+ "depende_de": [],
+ "complementa": [
+  "srd-5.1"
+ ],
+ "antecedentes": [
+  {
+   "id": "acolyte",
+   "nome": "Acólito",
+   "pericias": [
+    "intuicao",
+    "religiao"
+   ],
+   "idiomas_escolha": 2,
+   "ferramentas": [],
+   "caracteristica": {
+    "nome": "Abrigo dos Fiéis",
+    "texto": "Como um acólito, você detém o respeito daqueles que compartilham de sua fé, e você pode realizar cerimônias de sua divindade. Você e seus companheiros de aventura podem até receber cura e caridade de um templo, santuário ou outro posto de sua fé, embora devam fornecer quaisquer componentes materiais necessários para as magias. Aqueles que compartilham de sua religião vão garantir a você (mas apenas você), custeando um estilo de vida modesto.\n\nVocê também pode possuir laços com um templo específico devotado à sua divindade ou panteão, e fixar residência nele. Pode ser o templo que você está acostumado a servir, se ainda tiver boas relações com ele, ou um templo no qual você encontrou um novo lar. Enquanto frequentar as redondezas desse templo, você pode solicitar os sacerdotes para assisti-lo, desde que essa assistência não seja de alguma forma perigosa e que você sempre esteja em uma boa relação com seu templo."
+   }
+  }
+ ]
+}

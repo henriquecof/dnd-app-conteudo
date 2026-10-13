@@ -1,0 +1,2582 @@
+{
+ "formato": 1,
+ "id": "srd-itens",
+ "nome": "SRD 5.1 — Equipamento",
+ "versao": "1.0.0",
+ "descricao": "Armas, armaduras, equipamento de aventura, ferramentas, montarias e veículos do System Reference Document 5.1 (em inglês).",
+ "licenca": "Contém material do System Reference Document 5.1 da Wizards of the Coast LLC (CC-BY-4.0, https://creativecommons.org/licenses/by/4.0/legalcode). Dados estruturados de 5e-bits/5e-database (MIT).",
+ "idioma": "en",
+ "categoria": "itens",
+ "publico": [
+  "jogador",
+  "mestre"
+ ],
+ "fonte": "System Reference Document 5.1 (Wizards of the Coast), via 5e-bits/5e-database",
+ "depende_de": [],
+ "complementa": [
+  "srd-5.1"
+ ],
+ "itens": [
+  {
+   "id": "abacus",
+   "nome": "Abacus",
+   "tipo": "equipamento",
+   "peso": 2,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "acid_vial",
+   "nome": "Acid (vial)",
+   "tipo": "consumivel",
+   "peso": 1,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "As an action, you can splash the contents of this vial onto a creature within 1.5 m of you or throw the vial up to 6 m, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon.\n\nOn a hit, the target takes 2d6 acid damage."
+  },
+  {
+   "id": "alchemists_fire_flask",
+   "nome": "Alchemist's fire (flask)",
+   "tipo": "consumivel",
+   "peso": 1,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "This sticky, adhesive fluid ignites when exposed to air.\n\nAs an action, you can throw this flask up to 6 m, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon.\n\nOn a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+  },
+  {
+   "id": "alchemists_supplies",
+   "nome": "Alchemist's Supplies",
+   "tipo": "ferramenta",
+   "peso": 8,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "alms_box",
+   "nome": "Alms box",
+   "tipo": "equipamento",
+   "peso": 0,
+   "texto": "A small box for alms, typically found in a priest's pack."
+  },
+  {
+   "id": "amulet",
+   "nome": "Amulet",
+   "tipo": "foco",
+   "peso": 1,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.\n\nAppendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+  },
+  {
+   "id": "animal_feed_1_day",
+   "nome": "Animal Feed (1 day)",
+   "tipo": "equipamento",
+   "peso": 10,
+   "custo": {
+    "valor": 5,
+    "moeda": "pc"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "antitoxin_vial",
+   "nome": "Antitoxin (vial)",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."
+  },
+  {
+   "id": "arrow",
+   "nome": "Arrow",
+   "tipo": "municao",
+   "municao": "flecha",
+   "peso": 0.05,
+   "custo": {
+    "valor": 1,
+    "moeda": "po",
+    "lote": 20
+   },
+   "texto": "Sold in bundles of 20."
+  },
+  {
+   "id": "backpack",
+   "nome": "Backpack",
+   "tipo": "recipiente",
+   "peso": 5,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "capacidade": {
+    "peso": 30
+   }
+  },
+  {
+   "id": "bagpipes",
+   "nome": "Bagpipes",
+   "tipo": "ferramenta",
+   "peso": 6,
+   "custo": {
+    "valor": 30,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "ball_bearings_bag_of_1000",
+   "nome": "Ball bearings (bag of 1,000)",
+   "tipo": "equipamento",
+   "peso": 2,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 3 m on a side.\n\nA creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone.\n\nA creature moving through the area at half speed doesn't need to make the save."
+  },
+  {
+   "id": "barding_breastplate",
+   "nome": "Barding: Breastplate",
+   "tipo": "equipamento",
+   "peso": 40,
+   "custo": {
+    "valor": 1600,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_chain_mail",
+   "nome": "Barding: Chain mail",
+   "tipo": "equipamento",
+   "peso": 110,
+   "custo": {
+    "valor": 300,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_chain_shirt",
+   "nome": "Barding: Chain shirt",
+   "tipo": "equipamento",
+   "peso": 40,
+   "custo": {
+    "valor": 200,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_half_plate",
+   "nome": "Barding: Half plate",
+   "tipo": "equipamento",
+   "peso": 80,
+   "custo": {
+    "valor": 3000,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_hide",
+   "nome": "Barding: Hide",
+   "tipo": "equipamento",
+   "peso": 24,
+   "custo": {
+    "valor": 40,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_leather",
+   "nome": "Barding: Leather",
+   "tipo": "equipamento",
+   "peso": 20,
+   "custo": {
+    "valor": 40,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_padded",
+   "nome": "Barding: Padded",
+   "tipo": "equipamento",
+   "peso": 16,
+   "custo": {
+    "valor": 20,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_plate",
+   "nome": "Barding: Plate",
+   "tipo": "equipamento",
+   "peso": 130,
+   "custo": {
+    "valor": 6000,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_ring_mail",
+   "nome": "Barding: Ring mail",
+   "tipo": "equipamento",
+   "peso": 80,
+   "custo": {
+    "valor": 12,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_scale_mail",
+   "nome": "Barding: Scale mail",
+   "tipo": "equipamento",
+   "peso": 90,
+   "custo": {
+    "valor": 200,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_splint",
+   "nome": "Barding: Splint",
+   "tipo": "equipamento",
+   "peso": 120,
+   "custo": {
+    "valor": 800,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barding_studded_leather",
+   "nome": "Barding: Studded Leather",
+   "tipo": "equipamento",
+   "peso": 26,
+   "custo": {
+    "valor": 180,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nBarding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+  },
+  {
+   "id": "barrel",
+   "nome": "Barrel",
+   "tipo": "recipiente",
+   "peso": 70,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "basket",
+   "nome": "Basket",
+   "tipo": "recipiente",
+   "peso": 2,
+   "custo": {
+    "valor": 4,
+    "moeda": "pp"
+   },
+   "capacidade": {
+    "peso": 40
+   }
+  },
+  {
+   "id": "battleaxe",
+   "nome": "Battleaxe",
+   "tipo": "arma",
+   "peso": 4,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d8 slashing; Versatile (1d10)."
+  },
+  {
+   "id": "bedroll",
+   "nome": "Bedroll",
+   "tipo": "equipamento",
+   "peso": 7,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "bell",
+   "nome": "Bell",
+   "tipo": "equipamento",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "bit_and_bridle",
+   "nome": "Bit and bridle",
+   "tipo": "equipamento",
+   "peso": 1,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "blanket",
+   "nome": "Blanket",
+   "tipo": "equipamento",
+   "peso": 3,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   }
+  },
+  {
+   "id": "block_and_tackle",
+   "nome": "Block and tackle",
+   "tipo": "equipamento",
+   "peso": 5,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."
+  },
+  {
+   "id": "block_of_incense",
+   "nome": "Block of incense",
+   "tipo": "consumivel",
+   "peso": 0,
+   "texto": "A block of incense, typically found in a priest's pack."
+  },
+  {
+   "id": "blowgun",
+   "nome": "Blowgun",
+   "tipo": "arma",
+   "usa_municao": "agulha",
+   "peso": 1,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Martial ranged weapon. 1 piercing; Ammunition (range 7.5/30 m), Loading."
+  },
+  {
+   "id": "blowgun_needle",
+   "nome": "Blowgun needle",
+   "tipo": "municao",
+   "municao": "agulha",
+   "peso": 0.02,
+   "custo": {
+    "valor": 1,
+    "moeda": "po",
+    "lote": 50
+   },
+   "texto": "Sold in bundles of 50."
+  },
+  {
+   "id": "bolt",
+   "nome": "Crossbow bolt",
+   "tipo": "municao",
+   "municao": "virote",
+   "peso": 0.075,
+   "custo": {
+    "valor": 1,
+    "moeda": "po",
+    "lote": 20
+   },
+   "texto": "Sold in bundles of 20."
+  },
+  {
+   "id": "book",
+   "nome": "Book",
+   "tipo": "equipamento",
+   "peso": 5,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section)."
+  },
+  {
+   "id": "bottle_glass",
+   "nome": "Bottle, glass",
+   "tipo": "equipamento",
+   "peso": 2,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "breastplate",
+   "nome": "Breastplate",
+   "tipo": "armadura",
+   "peso": 20,
+   "custo": {
+    "valor": 400,
+    "moeda": "po"
+   },
+   "texto": "Medium armor; AC 14 + Dex modifier (max 2)."
+  },
+  {
+   "id": "brewers_supplies",
+   "nome": "Brewer's Supplies",
+   "tipo": "ferramenta",
+   "peso": 9,
+   "custo": {
+    "valor": 20,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "bucket",
+   "nome": "Bucket",
+   "tipo": "equipamento",
+   "peso": 2,
+   "custo": {
+    "valor": 5,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "burglars_pack",
+   "nome": "Burglar's Pack",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 16,
+    "moeda": "po"
+   },
+   "texto": "Includes: Backpack, Ball bearings (bag of 1,000), String (3 m), Bell, Candle (5), Crowbar, Hammer, Piton (10), Lantern, hooded, Oil (flask) (2), Rations (1 day) (5), Tinderbox, Waterskin, Rope, hempen (15 m)."
+  },
+  {
+   "id": "calligraphers_supplies",
+   "nome": "Calligrapher's Supplies",
+   "tipo": "ferramenta",
+   "peso": 5,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "caltrops",
+   "nome": "Caltrops",
+   "tipo": "equipamento",
+   "peso": 2,
+   "custo": {
+    "valor": 5,
+    "moeda": "pc"
+   },
+   "texto": "As an action, you can spread a bag of caltrops to cover a square area that is 1.5 m on a side.\n\nAny creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage.\n\nTaking this damage reduces the creature's walking speed by 3 m until the creature regains at least 1 hit point.\n\nA creature moving through the area at half speed doesn't need to make the save."
+  },
+  {
+   "id": "camel",
+   "nome": "Camel",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 15 m.\n\nCarrying capacity 480 lb."
+  },
+  {
+   "id": "candle",
+   "nome": "Candle",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "pc"
+   },
+   "duracao_min": 60,
+   "texto": "For 1 hour, a candle sheds bright light in a 1.5-meter radius and dim light for an additional 1.5 m."
+  },
+  {
+   "id": "carpenters_tools",
+   "nome": "Carpenter's Tools",
+   "tipo": "ferramenta",
+   "peso": 6,
+   "custo": {
+    "valor": 8,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "carriage",
+   "nome": "Carriage",
+   "tipo": "equipamento",
+   "peso": 600,
+   "custo": {
+    "valor": 100,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "cart",
+   "nome": "Cart",
+   "tipo": "equipamento",
+   "peso": 200,
+   "custo": {
+    "valor": 15,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "cartographers_tools",
+   "nome": "Cartographer's Tools",
+   "tipo": "ferramenta",
+   "peso": 6,
+   "custo": {
+    "valor": 15,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "case_crossbow_bolt",
+   "nome": "Case, crossbow bolt",
+   "tipo": "recipiente",
+   "peso": 1,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "capacidade": {
+    "unidades": 20,
+    "aceita": [
+     "municao"
+    ]
+   },
+   "texto": "This wooden case can hold up to twenty crossbow bolts."
+  },
+  {
+   "id": "case_map_or_scroll",
+   "nome": "Case, map or scroll",
+   "tipo": "recipiente",
+   "peso": 1,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "capacidade": {
+    "unidades": 10
+   },
+   "texto": "This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment."
+  },
+  {
+   "id": "censer",
+   "nome": "Censer",
+   "tipo": "equipamento",
+   "peso": 0,
+   "texto": "A censer, typically found in a priest's pack."
+  },
+  {
+   "id": "chain_10_feet",
+   "nome": "Chain (3 m)",
+   "tipo": "equipamento",
+   "peso": 10,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."
+  },
+  {
+   "id": "chain_mail",
+   "nome": "Chain Mail",
+   "tipo": "armadura",
+   "peso": 55,
+   "custo": {
+    "valor": 75,
+    "moeda": "po"
+   },
+   "texto": "Heavy armor; AC 16; Strength 13; disadvantage on Stealth checks."
+  },
+  {
+   "id": "chain_shirt",
+   "nome": "Chain Shirt",
+   "tipo": "armadura",
+   "peso": 20,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Medium armor; AC 13 + Dex modifier (max 2)."
+  },
+  {
+   "id": "chalk_1_piece",
+   "nome": "Chalk (1 piece)",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "chariot",
+   "nome": "Chariot",
+   "tipo": "equipamento",
+   "peso": 100,
+   "custo": {
+    "valor": 250,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "chest",
+   "nome": "Chest",
+   "tipo": "recipiente",
+   "peso": 25,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "capacidade": {
+    "peso": 300
+   }
+  },
+  {
+   "id": "climbers_kit",
+   "nome": "Climber's Kit",
+   "tipo": "ferramenta",
+   "peso": 12,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 7.5 m from the point where you anchored yourself, and you can't climb more than 7.5 m away from that point without undoing the anchor."
+  },
+  {
+   "id": "clothes_common",
+   "nome": "Clothes, common",
+   "tipo": "equipamento",
+   "peso": 3,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   }
+  },
+  {
+   "id": "clothes_costume",
+   "nome": "Clothes, costume",
+   "tipo": "equipamento",
+   "peso": 4,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "clothes_fine",
+   "nome": "Clothes, fine",
+   "tipo": "equipamento",
+   "peso": 6,
+   "custo": {
+    "valor": 15,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "clothes_travelers",
+   "nome": "Clothes, traveler's",
+   "tipo": "equipamento",
+   "peso": 4,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "club",
+   "nome": "Club",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 1,
+    "moeda": "pp"
+   },
+   "texto": "Simple melee weapon. 1d4 bludgeoning; Light, Monk."
+  },
+  {
+   "id": "cobblers_tools",
+   "nome": "Cobbler's Tools",
+   "tipo": "ferramenta",
+   "peso": 5,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "component_pouch",
+   "nome": "Component pouch",
+   "tipo": "foco",
+   "peso": 2,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."
+  },
+  {
+   "id": "cooks_utensils",
+   "nome": "Cook's utensils",
+   "tipo": "ferramenta",
+   "peso": 8,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "crossbow_hand",
+   "nome": "Crossbow, hand",
+   "tipo": "arma",
+   "usa_municao": "virote",
+   "peso": 3,
+   "custo": {
+    "valor": 75,
+    "moeda": "po"
+   },
+   "texto": "Martial ranged weapon. 1d6 piercing; Ammunition (range 9/36 m), Light, Loading."
+  },
+  {
+   "id": "crossbow_heavy",
+   "nome": "Crossbow, heavy",
+   "tipo": "arma",
+   "usa_municao": "virote",
+   "peso": 18,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Martial ranged weapon. 1d10 piercing; Ammunition (range 30/120 m), Heavy, Loading, Two-Handed."
+  },
+  {
+   "id": "crowbar",
+   "nome": "Crowbar",
+   "tipo": "equipamento",
+   "peso": 5,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied."
+  },
+  {
+   "id": "crystal",
+   "nome": "Crystal",
+   "tipo": "foco",
+   "peso": 1,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+  },
+  {
+   "id": "dagger",
+   "nome": "Dagger",
+   "tipo": "arma",
+   "peso": 1,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "Simple melee weapon. 1d4 piercing; Finesse, Light, Thrown (range 6/18 m), Monk."
+  },
+  {
+   "id": "dart",
+   "nome": "Dart",
+   "tipo": "arma",
+   "peso": 0.25,
+   "custo": {
+    "valor": 5,
+    "moeda": "pc"
+   },
+   "texto": "Simple ranged weapon. 1d4 piercing; Finesse, Thrown (range 6/18 m)."
+  },
+  {
+   "id": "dice_set",
+   "nome": "Dice Set",
+   "tipo": "ferramenta",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "pp"
+   },
+   "texto": "Gaming Sets.\n\nThis item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+  },
+  {
+   "id": "diplomats_pack",
+   "nome": "Diplomat's Pack",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 39,
+    "moeda": "po"
+   },
+   "texto": "Includes: Chest, Case, map or scroll (2), Clothes, fine, Ink (1 ounce bottle), Ink pen, Lamp, Oil (flask) (2), Paper (one sheet) (5), Perfume (vial), Sealing wax, Soap."
+  },
+  {
+   "id": "disguise_kit",
+   "nome": "Disguise Kit",
+   "tipo": "ferramenta",
+   "peso": 3,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."
+  },
+  {
+   "id": "donkey",
+   "nome": "Donkey",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 8,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 12 m.\n\nCarrying capacity 420 lb."
+  },
+  {
+   "id": "drum",
+   "nome": "Drum",
+   "tipo": "ferramenta",
+   "peso": 3,
+   "custo": {
+    "valor": 6,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "dulcimer",
+   "nome": "Dulcimer",
+   "tipo": "ferramenta",
+   "peso": 10,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "dungeoneers_pack",
+   "nome": "Dungeoneer's Pack",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 12,
+    "moeda": "po"
+   },
+   "texto": "Includes: Backpack, Crowbar, Hammer, Piton (10), Torch (10), Tinderbox, Rations (1 day) (10), Waterskin, Rope, hempen (15 m)."
+  },
+  {
+   "id": "elephant",
+   "nome": "Elephant",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 200,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 12 m.\n\nCarrying capacity 1,320 lb."
+  },
+  {
+   "id": "emblem",
+   "nome": "Emblem",
+   "tipo": "foco",
+   "peso": 0,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.\n\nAppendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+  },
+  {
+   "id": "entertainers_pack",
+   "nome": "Entertainer's Pack",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 40,
+    "moeda": "po"
+   },
+   "texto": "Includes: Backpack, Bedroll, Clothes, costume (2), Candle (5), Rations (1 day) (5), Waterskin, Disguise Kit."
+  },
+  {
+   "id": "explorers_pack",
+   "nome": "Explorer's Pack",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Includes: Backpack, Bedroll, Mess Kit, Tinderbox, Torch (10), Rations (1 day) (10), Waterskin, Rope, hempen (15 m)."
+  },
+  {
+   "id": "fishing_tackle",
+   "nome": "Fishing tackle",
+   "tipo": "equipamento",
+   "peso": 4,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."
+  },
+  {
+   "id": "flail",
+   "nome": "Flail",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d8 bludgeoning."
+  },
+  {
+   "id": "flask_or_tankard",
+   "nome": "Flask or tankard",
+   "tipo": "equipamento",
+   "peso": 1,
+   "custo": {
+    "valor": 2,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "flute",
+   "nome": "Flute",
+   "tipo": "ferramenta",
+   "peso": 1,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "forgery_kit",
+   "nome": "Forgery Kit",
+   "tipo": "ferramenta",
+   "peso": 5,
+   "custo": {
+    "valor": 15,
+    "moeda": "po"
+   },
+   "texto": "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."
+  },
+  {
+   "id": "galley",
+   "nome": "Galley",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 30000,
+    "moeda": "po"
+   },
+   "texto": "Waterborne Vehicles.\n\nSpeed 4 mph."
+  },
+  {
+   "id": "glaive",
+   "nome": "Glaive",
+   "tipo": "arma",
+   "peso": 6,
+   "custo": {
+    "valor": 20,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d10 slashing; Heavy, Reach, Two-Handed."
+  },
+  {
+   "id": "glassblowers_tools",
+   "nome": "Glassblower's Tools",
+   "tipo": "ferramenta",
+   "peso": 5,
+   "custo": {
+    "valor": 30,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "grappling_hook",
+   "nome": "Grappling hook",
+   "tipo": "equipamento",
+   "peso": 4,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "greataxe",
+   "nome": "Greataxe",
+   "tipo": "arma",
+   "peso": 7,
+   "custo": {
+    "valor": 30,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d12 slashing; Heavy, Two-Handed."
+  },
+  {
+   "id": "greatclub",
+   "nome": "Greatclub",
+   "tipo": "arma",
+   "peso": 10,
+   "custo": {
+    "valor": 2,
+    "moeda": "pp"
+   },
+   "texto": "Simple melee weapon. 1d8 bludgeoning; Two-Handed."
+  },
+  {
+   "id": "greatsword",
+   "nome": "Greatsword",
+   "tipo": "arma",
+   "peso": 6,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 2d6 slashing; Heavy, Two-Handed."
+  },
+  {
+   "id": "halberd",
+   "nome": "Halberd",
+   "tipo": "arma",
+   "peso": 6,
+   "custo": {
+    "valor": 20,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d10 slashing; Heavy, Reach, Two-Handed."
+  },
+  {
+   "id": "half_plate_armor",
+   "nome": "Half Plate Armor",
+   "tipo": "armadura",
+   "peso": 40,
+   "custo": {
+    "valor": 750,
+    "moeda": "po"
+   },
+   "texto": "Medium armor; AC 15 + Dex modifier (max 2); disadvantage on Stealth checks."
+  },
+  {
+   "id": "hammer",
+   "nome": "Hammer",
+   "tipo": "equipamento",
+   "peso": 3,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "hammer_sledge",
+   "nome": "Hammer, sledge",
+   "tipo": "equipamento",
+   "peso": 10,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "handaxe",
+   "nome": "Handaxe",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Simple melee weapon. 1d6 slashing; Light, Thrown (range 6/18 m), Monk."
+  },
+  {
+   "id": "healers_kit",
+   "nome": "Healer's Kit",
+   "tipo": "ferramenta",
+   "peso": 3,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."
+  },
+  {
+   "id": "herbalism_kit",
+   "nome": "Herbalism Kit",
+   "tipo": "ferramenta",
+   "peso": 3,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."
+  },
+  {
+   "id": "hide_armor",
+   "nome": "Hide Armor",
+   "tipo": "armadura",
+   "peso": 12,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Medium armor; AC 12 + Dex modifier (max 2)."
+  },
+  {
+   "id": "holy_water_flask",
+   "nome": "Holy water (flask)",
+   "tipo": "consumivel",
+   "peso": 1,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "As an action, you can splash the contents of this flask onto a creature within 1.5 m of you or throw it up to 6 m, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon.\n\nIf the target is a fiend or undead, it takes 2d6 radiant damage.\n\nA cleric or paladin may create holy water by performing a special ritual.\n\nThe ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."
+  },
+  {
+   "id": "horn",
+   "nome": "Horn",
+   "tipo": "ferramenta",
+   "peso": 2,
+   "custo": {
+    "valor": 3,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "horse_draft",
+   "nome": "Horse, draft",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 12 m.\n\nCarrying capacity 540 lb."
+  },
+  {
+   "id": "horse_riding",
+   "nome": "Horse, riding",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 75,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 18 m.\n\nCarrying capacity 480 lb."
+  },
+  {
+   "id": "hourglass",
+   "nome": "Hourglass",
+   "tipo": "equipamento",
+   "peso": 1,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "hunting_trap",
+   "nome": "Hunting trap",
+   "tipo": "equipamento",
+   "peso": 25,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground.\n\nA creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 0.9 m long).\n\nA creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
+  },
+  {
+   "id": "ink_1_ounce_bottle",
+   "nome": "Ink (1 ounce bottle)",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "ink_pen",
+   "nome": "Ink pen",
+   "tipo": "equipamento",
+   "peso": 0,
+   "custo": {
+    "valor": 2,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "javelin",
+   "nome": "Javelin",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   },
+   "texto": "Simple melee weapon. 1d6 piercing; Thrown (range 9/36 m), Monk."
+  },
+  {
+   "id": "jewelers_tools",
+   "nome": "Jeweler's Tools",
+   "tipo": "ferramenta",
+   "peso": 2,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "jug_or_pitcher",
+   "nome": "Jug or pitcher",
+   "tipo": "equipamento",
+   "peso": 4,
+   "custo": {
+    "valor": 2,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "keelboat",
+   "nome": "Keelboat",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 3000,
+    "moeda": "po"
+   },
+   "texto": "Waterborne Vehicles.\n\nSpeed 1 mph.\n\nKeelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."
+  },
+  {
+   "id": "ladder_10_foot",
+   "nome": "Ladder (3-meter)",
+   "tipo": "equipamento",
+   "peso": 25,
+   "custo": {
+    "valor": 1,
+    "moeda": "pp"
+   }
+  },
+  {
+   "id": "lamp",
+   "nome": "Lamp",
+   "tipo": "equipamento",
+   "peso": 1,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   },
+   "texto": "A lamp casts bright light in a 4.5-meter radius and dim light for an additional 9 m. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+  },
+  {
+   "id": "lance",
+   "nome": "Lance",
+   "tipo": "arma",
+   "peso": 6,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d12 piercing; Reach, Special.\n\nYou have disadvantage when you use a lance to attack a target within 1.5 m of you. Also, a lance requires two hands to wield when you aren't mounted."
+  },
+  {
+   "id": "lantern_bullseye",
+   "nome": "Lantern, bullseye",
+   "tipo": "equipamento",
+   "peso": 2,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "A bullseye lantern casts bright light in a 18-meter cone and dim light for an additional 18 m. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+  },
+  {
+   "id": "lantern_hooded",
+   "nome": "Lantern, hooded",
+   "tipo": "equipamento",
+   "peso": 2,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "A hooded lantern casts bright light in a 9-meter radius and dim light for an additional 9 m. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 1.5-meter radius."
+  },
+  {
+   "id": "leather_armor",
+   "nome": "Leather Armor",
+   "tipo": "armadura",
+   "peso": 10,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Light armor; AC 11 + Dex modifier."
+  },
+  {
+   "id": "leatherworkers_tools",
+   "nome": "Leatherworker's Tools",
+   "tipo": "ferramenta",
+   "peso": 5,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "light_crossbow",
+   "nome": "Crossbow, light",
+   "tipo": "arma",
+   "usa_municao": "virote",
+   "peso": 5,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Simple ranged weapon. 1d8 piercing; Ammunition (range 24/96 m), Loading, Two-Handed."
+  },
+  {
+   "id": "light_hammer",
+   "nome": "Light hammer",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "Simple melee weapon. 1d4 bludgeoning; Light, Thrown (range 6/18 m), Monk."
+  },
+  {
+   "id": "little_bag_of_sand",
+   "nome": "Little bag of sand",
+   "tipo": "consumivel",
+   "peso": 0,
+   "texto": "A small bag of sand, typically found in a scholar's pack."
+  },
+  {
+   "id": "lock",
+   "nome": "Lock",
+   "tipo": "equipamento",
+   "peso": 1,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your GM may decide that better locks are available for higher prices."
+  },
+  {
+   "id": "longbow",
+   "nome": "Longbow",
+   "tipo": "arma",
+   "usa_municao": "flecha",
+   "peso": 2,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Martial ranged weapon. 1d8 piercing; Ammunition (range 45/180 m), Heavy, Two-Handed."
+  },
+  {
+   "id": "longship",
+   "nome": "Longship",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 10000,
+    "moeda": "po"
+   },
+   "texto": "Waterborne Vehicles.\n\nSpeed 3 mph."
+  },
+  {
+   "id": "longsword",
+   "nome": "Longsword",
+   "tipo": "arma",
+   "peso": 3,
+   "custo": {
+    "valor": 15,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d8 slashing; Versatile (1d10)."
+  },
+  {
+   "id": "lute",
+   "nome": "Lute",
+   "tipo": "ferramenta",
+   "peso": 2,
+   "custo": {
+    "valor": 35,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "lyre",
+   "nome": "Lyre",
+   "tipo": "ferramenta",
+   "peso": 2,
+   "custo": {
+    "valor": 30,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "mace",
+   "nome": "Mace",
+   "tipo": "arma",
+   "peso": 4,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Simple melee weapon. 1d6 bludgeoning; Monk."
+  },
+  {
+   "id": "magnifying_glass",
+   "nome": "Magnifying glass",
+   "tipo": "equipamento",
+   "peso": 0,
+   "custo": {
+    "valor": 100,
+    "moeda": "po"
+   },
+   "texto": "This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.\n\nA magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."
+  },
+  {
+   "id": "manacles",
+   "nome": "Manacles",
+   "tipo": "equipamento",
+   "peso": 6,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check.\n\nEach set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points."
+  },
+  {
+   "id": "masons_tools",
+   "nome": "Mason's Tools",
+   "tipo": "ferramenta",
+   "peso": 8,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "mastiff",
+   "nome": "Mastiff",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 12 m.\n\nCarrying capacity 195 lb."
+  },
+  {
+   "id": "maul",
+   "nome": "Maul",
+   "tipo": "arma",
+   "peso": 10,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 2d6 bludgeoning; Heavy, Two-Handed."
+  },
+  {
+   "id": "mess_kit",
+   "nome": "Mess Kit",
+   "tipo": "ferramenta",
+   "peso": 1,
+   "custo": {
+    "valor": 2,
+    "moeda": "pp"
+   },
+   "texto": "This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
+  },
+  {
+   "id": "mirror_steel",
+   "nome": "Mirror, steel",
+   "tipo": "equipamento",
+   "peso": 0.5,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "morningstar",
+   "nome": "Morningstar",
+   "tipo": "arma",
+   "peso": 4,
+   "custo": {
+    "valor": 15,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d8 piercing."
+  },
+  {
+   "id": "mule",
+   "nome": "Mule",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 8,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 12 m.\n\nCarrying capacity 420 lb."
+  },
+  {
+   "id": "navigators_tools",
+   "nome": "Navigator's Tools",
+   "tipo": "ferramenta",
+   "peso": 2,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Other Tools.\n\nThis set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."
+  },
+  {
+   "id": "net",
+   "nome": "Net",
+   "tipo": "arma",
+   "peso": 3,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "Martial ranged weapon. Thrown (range 1.5/4.5 m), Special.\n\nA Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+  },
+  {
+   "id": "oil_flask",
+   "nome": "Oil (flask)",
+   "tipo": "consumivel",
+   "peso": 1,
+   "custo": {
+    "valor": 1,
+    "moeda": "pp"
+   },
+   "texto": "Oil usually comes in a clay flask that holds 1 pint.\n\nAs an action, you can splash the oil in this flask onto a creature within 1.5 m of you or throw it up to 6 m, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.\n\nOn a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil.\n\nYou can also pour a flask of oil on the ground to cover a 1.5-meter-square area, provided that the surface is level.\n\nIf lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."
+  },
+  {
+   "id": "orb",
+   "nome": "Orb",
+   "tipo": "foco",
+   "peso": 3,
+   "custo": {
+    "valor": 20,
+    "moeda": "po"
+   },
+   "texto": "An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+  },
+  {
+   "id": "padded_armor",
+   "nome": "Padded Armor",
+   "tipo": "armadura",
+   "peso": 8,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Light armor; AC 11 + Dex modifier; disadvantage on Stealth checks."
+  },
+  {
+   "id": "painters_supplies",
+   "nome": "Painter's Supplies",
+   "tipo": "ferramenta",
+   "peso": 5,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "pan_flute",
+   "nome": "Pan flute",
+   "tipo": "ferramenta",
+   "peso": 2,
+   "custo": {
+    "valor": 12,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "paper_one_sheet",
+   "nome": "Paper (one sheet)",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 2,
+    "moeda": "pp"
+   }
+  },
+  {
+   "id": "parchment_one_sheet",
+   "nome": "Parchment (one sheet)",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "pp"
+   }
+  },
+  {
+   "id": "perfume_vial",
+   "nome": "Perfume (vial)",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "pick_miners",
+   "nome": "Pick, miner's",
+   "tipo": "equipamento",
+   "peso": 10,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "pike",
+   "nome": "Pike",
+   "tipo": "arma",
+   "peso": 18,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d10 piercing; Heavy, Reach, Two-Handed."
+  },
+  {
+   "id": "piton",
+   "nome": "Piton",
+   "tipo": "equipamento",
+   "peso": 0.25,
+   "custo": {
+    "valor": 5,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "plate_armor",
+   "nome": "Plate Armor",
+   "tipo": "armadura",
+   "peso": 65,
+   "custo": {
+    "valor": 1500,
+    "moeda": "po"
+   },
+   "texto": "Heavy armor; AC 18; Strength 15; disadvantage on Stealth checks."
+  },
+  {
+   "id": "playing_card_set",
+   "nome": "Playing Card Set",
+   "tipo": "ferramenta",
+   "peso": 0,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   },
+   "texto": "Gaming Sets.\n\nThis item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+  },
+  {
+   "id": "poison_basic_vial",
+   "nome": "Poison, basic (vial)",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 100,
+    "moeda": "po"
+   },
+   "texto": "You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."
+  },
+  {
+   "id": "poisoners_kit",
+   "nome": "Poisoner's Kit",
+   "tipo": "ferramenta",
+   "peso": 2,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
+  },
+  {
+   "id": "pole_10_foot",
+   "nome": "Pole (3-meter)",
+   "tipo": "equipamento",
+   "peso": 7,
+   "custo": {
+    "valor": 5,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "pony",
+   "nome": "Pony",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 30,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 12 m.\n\nCarrying capacity 225 lb."
+  },
+  {
+   "id": "pot_iron",
+   "nome": "Pot, iron",
+   "tipo": "equipamento",
+   "peso": 10,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "potters_tools",
+   "nome": "Potter's Tools",
+   "tipo": "ferramenta",
+   "peso": 3,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "pouch",
+   "nome": "Pouch",
+   "tipo": "recipiente",
+   "peso": 1,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   },
+   "capacidade": {
+    "peso": 6
+   },
+   "texto": "A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section)."
+  },
+  {
+   "id": "priests_pack",
+   "nome": "Priest's Pack",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 19,
+    "moeda": "po"
+   },
+   "texto": "Includes: Backpack, Blanket, Candle (10), Tinderbox, Rations (1 day) (2), Waterskin, Alms box, Block of incense (2), Censer, Vestments."
+  },
+  {
+   "id": "quarterstaff",
+   "nome": "Quarterstaff",
+   "tipo": "arma",
+   "peso": 4,
+   "custo": {
+    "valor": 2,
+    "moeda": "pp"
+   },
+   "texto": "Simple melee weapon. 1d6 bludgeoning; Versatile (1d8), Monk."
+  },
+  {
+   "id": "quiver",
+   "nome": "Quiver",
+   "tipo": "recipiente",
+   "peso": 1,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "capacidade": {
+    "unidades": 20,
+    "aceita": [
+     "municao"
+    ]
+   },
+   "texto": "A quiver can hold up to 20 arrows."
+  },
+  {
+   "id": "ram_portable",
+   "nome": "Ram, portable",
+   "tipo": "equipamento",
+   "peso": 35,
+   "custo": {
+    "valor": 4,
+    "moeda": "po"
+   },
+   "texto": "You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
+  },
+  {
+   "id": "rapier",
+   "nome": "Rapier",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d8 piercing; Finesse."
+  },
+  {
+   "id": "rations",
+   "nome": "Rations (1 day)",
+   "tipo": "consumivel",
+   "peso": 2,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   },
+   "texto": "Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."
+  },
+  {
+   "id": "reliquary",
+   "nome": "Reliquary",
+   "tipo": "foco",
+   "peso": 2,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.\n\nAppendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+  },
+  {
+   "id": "ring_mail",
+   "nome": "Ring Mail",
+   "tipo": "armadura",
+   "peso": 40,
+   "custo": {
+    "valor": 30,
+    "moeda": "po"
+   },
+   "texto": "Heavy armor; AC 14; disadvantage on Stealth checks."
+  },
+  {
+   "id": "robes",
+   "nome": "Robes",
+   "tipo": "equipamento",
+   "peso": 4,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "rod",
+   "nome": "Rod",
+   "tipo": "foco",
+   "peso": 2,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+  },
+  {
+   "id": "rope_hempen",
+   "nome": "Rope, hempen (15 m)",
+   "tipo": "equipamento",
+   "peso": 10,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+  },
+  {
+   "id": "rope_silk_50_feet",
+   "nome": "Rope, silk (15 m)",
+   "tipo": "equipamento",
+   "peso": 5,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+  },
+  {
+   "id": "rowboat",
+   "nome": "Rowboat",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Waterborne Vehicles.\n\nSpeed 1.5 mph.\n\nKeelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."
+  },
+  {
+   "id": "sack",
+   "nome": "Sack",
+   "tipo": "recipiente",
+   "peso": 0.5,
+   "custo": {
+    "valor": 1,
+    "moeda": "pc"
+   },
+   "capacidade": {
+    "peso": 30
+   }
+  },
+  {
+   "id": "saddle_exotic",
+   "nome": "Saddle, Exotic",
+   "tipo": "equipamento",
+   "peso": 50,
+   "custo": {
+    "valor": 60,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nAn exotic saddle is required for riding any aquatic or flying mount."
+  },
+  {
+   "id": "saddle_military",
+   "nome": "Saddle, Military",
+   "tipo": "equipamento",
+   "peso": 30,
+   "custo": {
+    "valor": 20,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles.\n\nA military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted."
+  },
+  {
+   "id": "saddle_pack",
+   "nome": "Saddle, Pack",
+   "tipo": "equipamento",
+   "peso": 15,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "saddle_riding",
+   "nome": "Saddle, Riding",
+   "tipo": "equipamento",
+   "peso": 25,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "saddlebags",
+   "nome": "Saddlebags",
+   "tipo": "equipamento",
+   "peso": 8,
+   "custo": {
+    "valor": 4,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "sailing_ship",
+   "nome": "Sailing ship",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 10000,
+    "moeda": "po"
+   },
+   "texto": "Waterborne Vehicles.\n\nSpeed 2 mph."
+  },
+  {
+   "id": "scale_mail",
+   "nome": "Scale Mail",
+   "tipo": "armadura",
+   "peso": 45,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Medium armor; AC 14 + Dex modifier (max 2); disadvantage on Stealth checks."
+  },
+  {
+   "id": "scale_merchants",
+   "nome": "Scale, merchant's",
+   "tipo": "equipamento",
+   "peso": 3,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."
+  },
+  {
+   "id": "scholars_pack",
+   "nome": "Scholar's Pack",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 40,
+    "moeda": "po"
+   },
+   "texto": "Includes: Backpack, Book, Ink (1 ounce bottle), Ink pen, Parchment (one sheet) (10), Little bag of sand, Small knife."
+  },
+  {
+   "id": "scimitar",
+   "nome": "Scimitar",
+   "tipo": "arma",
+   "peso": 3,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d6 slashing; Finesse, Light."
+  },
+  {
+   "id": "sealing_wax",
+   "nome": "Sealing wax",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   }
+  },
+  {
+   "id": "shawm",
+   "nome": "Shawm",
+   "tipo": "ferramenta",
+   "peso": 1,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "shield",
+   "nome": "Shield",
+   "tipo": "escudo",
+   "peso": 6,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Shield; +2 AC."
+  },
+  {
+   "id": "shortbow",
+   "nome": "Shortbow",
+   "tipo": "arma",
+   "usa_municao": "flecha",
+   "peso": 2,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Simple ranged weapon. 1d6 piercing; Ammunition (range 24/96 m), Two-Handed."
+  },
+  {
+   "id": "shortsword",
+   "nome": "Shortsword",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d6 piercing; Finesse, Light, Monk."
+  },
+  {
+   "id": "shovel",
+   "nome": "Shovel",
+   "tipo": "equipamento",
+   "peso": 5,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "sickle",
+   "nome": "Sickle",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "Simple melee weapon. 1d4 slashing; Light, Monk."
+  },
+  {
+   "id": "signal_whistle",
+   "nome": "Signal whistle",
+   "tipo": "equipamento",
+   "peso": 0,
+   "custo": {
+    "valor": 5,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "signet_ring",
+   "nome": "Signet ring",
+   "tipo": "equipamento",
+   "peso": 0,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "sled",
+   "nome": "Sled",
+   "tipo": "equipamento",
+   "peso": 300,
+   "custo": {
+    "valor": 20,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "sling",
+   "nome": "Sling",
+   "tipo": "arma",
+   "usa_municao": "bala",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "pp"
+   },
+   "texto": "Simple ranged weapon. 1d4 bludgeoning; Ammunition (range 9/36 m)."
+  },
+  {
+   "id": "sling_bullet",
+   "nome": "Sling bullet",
+   "tipo": "municao",
+   "municao": "bala",
+   "peso": 0.075,
+   "custo": {
+    "valor": 4,
+    "moeda": "pc",
+    "lote": 20
+   },
+   "texto": "Sold in bundles of 20."
+  },
+  {
+   "id": "small_knife",
+   "nome": "Small knife",
+   "tipo": "equipamento",
+   "peso": 0,
+   "texto": "A small knife, typically found in a scholar's pack."
+  },
+  {
+   "id": "smiths_tools",
+   "nome": "Smith's Tools",
+   "tipo": "ferramenta",
+   "peso": 8,
+   "custo": {
+    "valor": 20,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "soap",
+   "nome": "Soap",
+   "tipo": "consumivel",
+   "peso": 0,
+   "custo": {
+    "valor": 2,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "spear",
+   "nome": "Spear",
+   "tipo": "arma",
+   "peso": 3,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "Simple melee weapon. 1d6 piercing; Thrown (range 6/18 m), Versatile (1d8), Monk."
+  },
+  {
+   "id": "spellbook",
+   "nome": "Spellbook",
+   "tipo": "equipamento",
+   "peso": 3,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."
+  },
+  {
+   "id": "spike_iron",
+   "nome": "Spike, iron",
+   "tipo": "equipamento",
+   "peso": 5,
+   "custo": {
+    "valor": 1,
+    "moeda": "pp"
+   }
+  },
+  {
+   "id": "splint_armor",
+   "nome": "Splint Armor",
+   "tipo": "armadura",
+   "peso": 60,
+   "custo": {
+    "valor": 200,
+    "moeda": "po"
+   },
+   "texto": "Heavy armor; AC 17; Strength 15; disadvantage on Stealth checks."
+  },
+  {
+   "id": "sprig_of_mistletoe",
+   "nome": "Sprig of mistletoe",
+   "tipo": "foco",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."
+  },
+  {
+   "id": "spyglass",
+   "nome": "Spyglass",
+   "tipo": "equipamento",
+   "peso": 1,
+   "custo": {
+    "valor": 1000,
+    "moeda": "po"
+   },
+   "texto": "Objects viewed through a spyglass are magnified to twice their size."
+  },
+  {
+   "id": "stabling_1_day",
+   "nome": "Stabling (1 day)",
+   "tipo": "equipamento",
+   "peso": 0,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "staff",
+   "nome": "Staff",
+   "tipo": "foco",
+   "peso": 4,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+  },
+  {
+   "id": "string_10_feet",
+   "nome": "String (3 m)",
+   "tipo": "equipamento",
+   "peso": 0,
+   "texto": "A 3-meter length of string, typically found in a burglar's pack."
+  },
+  {
+   "id": "studded_leather_armor",
+   "nome": "Studded Leather Armor",
+   "tipo": "armadura",
+   "peso": 13,
+   "custo": {
+    "valor": 45,
+    "moeda": "po"
+   },
+   "texto": "Light armor; AC 12 + Dex modifier."
+  },
+  {
+   "id": "tent_two_person",
+   "nome": "Tent, two-person",
+   "tipo": "equipamento",
+   "peso": 20,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "A simple and portable canvas shelter, a tent sleeps two."
+  },
+  {
+   "id": "thieves_tools",
+   "nome": "Thieves' Tools",
+   "tipo": "ferramenta",
+   "peso": 1,
+   "custo": {
+    "valor": 25,
+    "moeda": "po"
+   },
+   "texto": "Other Tools.\n\nThis set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
+  },
+  {
+   "id": "tinderbox",
+   "nome": "Tinderbox",
+   "tipo": "ferramenta",
+   "peso": 1,
+   "custo": {
+    "valor": 5,
+    "moeda": "pp"
+   },
+   "texto": "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch--or anything else with abundant, exposed fuel--takes an action.\n\nLighting any other fire takes 1 minute."
+  },
+  {
+   "id": "tinkers_tools",
+   "nome": "Tinker's Tools",
+   "tipo": "ferramenta",
+   "peso": 10,
+   "custo": {
+    "valor": 50,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "torch",
+   "nome": "Torch",
+   "tipo": "consumivel",
+   "peso": 1,
+   "custo": {
+    "valor": 1,
+    "moeda": "pc"
+   },
+   "duracao_min": 60,
+   "texto": "A torch burns for 1 hour, providing bright light in a 6-meter radius and dim light for an additional 6 m. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
+  },
+  {
+   "id": "totem",
+   "nome": "Totem",
+   "tipo": "foco",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."
+  },
+  {
+   "id": "trident",
+   "nome": "Trident",
+   "tipo": "arma",
+   "peso": 4,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d6 piercing; Thrown (range 6/18 m), Versatile (1d8)."
+  },
+  {
+   "id": "vestments",
+   "nome": "Vestments",
+   "tipo": "equipamento",
+   "peso": 0,
+   "texto": "Religious clothing, typically found in a priest's pack."
+  },
+  {
+   "id": "vial",
+   "nome": "Vial",
+   "tipo": "equipamento",
+   "peso": 0,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   }
+  },
+  {
+   "id": "viol",
+   "nome": "Viol",
+   "tipo": "ferramenta",
+   "peso": 1,
+   "custo": {
+    "valor": 30,
+    "moeda": "po"
+   },
+   "texto": "Musical Instrument.\n\nSeveral of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+  },
+  {
+   "id": "wagon",
+   "nome": "Wagon",
+   "tipo": "equipamento",
+   "peso": 400,
+   "custo": {
+    "valor": 35,
+    "moeda": "po"
+   },
+   "texto": "Tack, Harness, and Drawn Vehicles."
+  },
+  {
+   "id": "wand",
+   "nome": "Wand",
+   "tipo": "foco",
+   "peso": 1,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+  },
+  {
+   "id": "war_pick",
+   "nome": "War pick",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d8 piercing."
+  },
+  {
+   "id": "warhammer",
+   "nome": "Warhammer",
+   "tipo": "arma",
+   "peso": 2,
+   "custo": {
+    "valor": 15,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d8 bludgeoning; Versatile (1d10)."
+  },
+  {
+   "id": "warhorse",
+   "nome": "Warhorse",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 400,
+    "moeda": "po"
+   },
+   "texto": "Mounts and Other Animals.\n\nSpeed 18 m.\n\nCarrying capacity 540 lb."
+  },
+  {
+   "id": "warship",
+   "nome": "Warship",
+   "tipo": "equipamento",
+   "custo": {
+    "valor": 25000,
+    "moeda": "po"
+   },
+   "texto": "Waterborne Vehicles.\n\nSpeed 2.5 mph."
+  },
+  {
+   "id": "waterskin",
+   "nome": "Waterskin",
+   "tipo": "equipamento",
+   "peso": 5,
+   "custo": {
+    "valor": 2,
+    "moeda": "pp"
+   }
+  },
+  {
+   "id": "weavers_tools",
+   "nome": "Weaver's Tools",
+   "tipo": "ferramenta",
+   "peso": 5,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "whetstone",
+   "nome": "Whetstone",
+   "tipo": "equipamento",
+   "peso": 1,
+   "custo": {
+    "valor": 1,
+    "moeda": "pc"
+   }
+  },
+  {
+   "id": "whip",
+   "nome": "Whip",
+   "tipo": "arma",
+   "peso": 3,
+   "custo": {
+    "valor": 2,
+    "moeda": "po"
+   },
+   "texto": "Martial melee weapon. 1d4 slashing; Finesse, Reach."
+  },
+  {
+   "id": "woodcarvers_tools",
+   "nome": "Woodcarver's Tools",
+   "tipo": "ferramenta",
+   "peso": 5,
+   "custo": {
+    "valor": 1,
+    "moeda": "po"
+   },
+   "texto": "Artisan's Tools.\n\nThese special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+  },
+  {
+   "id": "wooden_staff",
+   "nome": "Wooden staff",
+   "tipo": "foco",
+   "peso": 4,
+   "custo": {
+    "valor": 5,
+    "moeda": "po"
+   },
+   "texto": "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."
+  },
+  {
+   "id": "yew_wand",
+   "nome": "Yew wand",
+   "tipo": "foco",
+   "peso": 1,
+   "custo": {
+    "valor": 10,
+    "moeda": "po"
+   },
+   "texto": "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."
+  }
+ ]
+}
